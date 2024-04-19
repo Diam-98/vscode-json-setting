@@ -1,0 +1,37 @@
+{
+  "workbench.colorTheme": "Default Dark Modern",
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    ".env*": "dotenv"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  },
+  "php.inlayHints.parameters.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "php.format.rules.arrayInitializersAlignKeyValuePairs": false,
+  "editor.guides.bracketPairs": "active",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  // manually from john smilga
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "prettier.semi": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+}
